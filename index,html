@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <title>Mantando o seu bolo</title>
+</head>
+<body>
+      <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Vamos comesar a fazer o seu bolo: escolhe a sua massa!</p>
+            <button class="btn-proximo" data-proxima="1">MASSA DE CHOCOLATE</button>
+            <button class="btn-proximo" data-proxima="2">MASSA PÃO DE LÓ</button>
+            <button class="btn-proximo" data-proxima="3">MASSA AMANTEIGADA</button>
+        </div>
+        <div class="passo ativo" id="passo-1">
+            <p>Vamos escolher o recheio  do seu bolo?</p>
+            <button class="btn-proximo" data-proxima="4"> Chocolate com Morango</button>
+            <button class="btn-proximo" data-proxima="5"> brigadeiro cremoso </button>
+            <button class="btn-proximo" data-proxima="6">Leite Ninho</button>
+        </div>
+            <div class="passo ativo" id="passo-2">
+                <p>Vamos escolher o recheio  do seu bolo?</p>
+                <button class="btn-proximo" data-proxima="4">Cobertura de chantilly</button>
+                <button class="btn-proximo" data-proxima="5">Cobertura de Kit Kat</button>
+                <button class="btn-proximo" data-proxima="6">Cobertura mousse de limão</button>
+            </div>
+               <div class="passo ativo" id="passo-3">
+                <p>Vamos escolher decoraçao do seu bolo?</p>
+                <button class="btn-proximo" data-proxima="5"> Com Pérolas e Flores</button>
+                <button class="btn-proximo" data-proxima="5">Decorados e Personalizados</button>
+                <button class="btn-proximo" data-proxima="6"> moderno</button>
+            </div>
+      </main>
+ <script src="script.js"></script>
+</body>
+</html>
