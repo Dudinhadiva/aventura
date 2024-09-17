@@ -9,4 +9,5 @@ avanca. forEach(button => {
         document.getElementById(proximopasso).classList.add(ativo)
 
     })
+
 })
